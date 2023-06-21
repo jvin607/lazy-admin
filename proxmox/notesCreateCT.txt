@@ -1,0 +1,18 @@
+Brainstorming for createCT.sh script
+-because why rely on being able to consistently do it in 2 mins or less via GUI when I can FAIL TO AUTOMATE IT FOR 6 HOURS?!
+
+
+Template to use: debian11
+-need to find correct CLI tools to list local storage
+	-if template not found; download template (need to know cli tool to accomplish this)
+
+If we can successfully check for the template (and if missing, download it), then we need to CREATE the template with the following:
+
+ID 300
+Name sandbox-debian
+RAM 1GB
+ntwrk local (e.g. default vmbr0)
+nesting and fuse options set to true/on
+Can likely have ^^ be const variables
+
+
