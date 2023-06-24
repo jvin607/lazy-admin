@@ -77,7 +77,7 @@ pct push $CTID /root/scripts/secrets/secrets.sh /root/secrets.sh
 ## Making the copied files executable
 pct exec $CTID chmod +x /root/{secrets.sh,kickstart.sh}
 
-## Rumning kickstart.sh on CT 
+## Running kickstart.sh on CT 
 clear
 echo "Running kickstart script on $CTNAME..."
 sleep 2
